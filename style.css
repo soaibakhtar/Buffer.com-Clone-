@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Home */
+#home {
+  display: block;
+}
+
+/* Header section */
+.header {
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding-bottom: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+.innernavbar {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#logo {
+  margin: 10px;
+}
+#logo > img {
+  height: 100px;
+  width: 150px;
+}
+.navbar_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
+}
+.navbar_text {
+  cursor: pointer;
+}
+.navbar_text:hover {
+  color: rgb(44, 75, 255);
+  text-decoration: underline;
+  text-underline-position: 20px;
+}
+.login_singup {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+#Login_btn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: rgb(44, 75, 255);
+  cursor: pointer;
+}
+#Login_btn:hover {
+  text-decoration: underline;
+  text-underline-position: below;
+}
+#SingUp_btn {
+  background: rgb(44, 75, 255);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#SingUp_btn:hover {
+  background: rgb(3, 31, 186);
+}
+
+/* Main section */
+.Section_Container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* First Mid Section */
+.Top_Section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.mid_section-1 {
+  width: 50%;
+}
+.mid_section-1 > h1 {
+  font-size: 45px;
+}
+.mid_section-1 > p {
+  font-size: 22px;
+  line-height: 40px;
+}
+#mid_first_btn {
+  background: rgb(44, 75, 255);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#mid_first_btn:hover {
+  background: rgb(3, 31, 186);
+}
+#mid_Second_btn {
+  background: none;
+  color: rgb(44, 75, 255);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid rgb(44, 75, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.mid_section-2 {
+  width: 50%;
+}
+.mid_section-2 > img {
+  width: 100%;
+}
+
+/* Brand section */
+.Brand_Section {
+  width: 100%;
+  margin: 40px auto 40px auto;
+  padding-top: 30px;
+}
+.Brand_Container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+#huckberry > img {
+  width: 150px;
+  opacity: 0.5;
+  /* height: 100px; */
+}
+#food52 > img {
+  width: 150px;
+  opacity: 0.5;
+}
+#the_sill > img {
+  width: 150px;
+  opacity: 0.5;
+}
+#Burrow > img {
+  width: 150px;
+  opacity: 0.5;
+}
+#happysocks > img {
+  width: 150px;
+  opacity: 0.5;
+}
+#DressUp > img {
+  width: 150px;
+  opacity: 0.5;
+}
+.mid_para {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+.mid_para > h1 {
+  font-size: 40px;
+}
+.mid_para > p {
+  font-size: 20px;
+  line-height: 40px;
+}
+#mid_img {
+  margin-bottom: 20px;
+}
+
+/* Home Section */
+.Home_section {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 150px;
+  gap: 30px;
+}
+#content {
+  width: 45%;
+  margin: auto;
+}
+#content > #content_heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(44, 75, 255);
+}
+#content > h2 {
+  font-size: 35px;
+}
+#content > p {
+  font-size: 18px;
+  line-height: 40px;
+}
+#learn_btn {
+  background: none;
+  color: rgb(44, 75, 255);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid rgb(44, 75, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#Home_section_img {
+  width: 45%;
+  margin: auto;
+}
+#Home_section_img > img {
+  width: 100%;
+}
+
+/* 4. CELEBRATE Sliding Part */
+
+.celebrate {
+  width: 100%;
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 200px;
+}
+.Section_Para_Heading {
+  width: 45%;
+  margin: auto;
+}
+.Section_Para_Heading > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(44, 75, 255);
+}
+.Section_Para_Heading > h2 {
+  font-size: 35px;
+}
+.sliding
+{
+    border: 1px solid green;
+}
+.sliding_content
+{
+    border: 1px solid yellow;
+    width: 25%;
+    text-align: center;
+}
+.sliding_box_img>img
+{
+    border-radius: 50%;
+    z-index: 1000;
+}
+.sliding_box_content
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 40px 0 40px; */
+    padding: 40px 40px 0 40px;
+    border: 1px solid springgreen;
+    padding-top: 40px;
+    
+}
