@@ -47,7 +47,12 @@
 .navbar_text {
   cursor: pointer;
 }
-.navbar_text:hover {
+.navbar_text>a
+{
+  text-decoration: none;
+  color: black;
+}
+.navbar_text>a:hover {
   color: rgb(44, 75, 255);
   text-decoration: underline;
   text-underline-position: 20px;
@@ -238,12 +243,13 @@
 
 .celebrate {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
+  margin: auto;
   margin-top: 200px;
 }
 .Section_Para_Heading {
-  width: 45%;
+  width: 25%;
   margin: auto;
 }
 .Section_Para_Heading > p {
@@ -256,14 +262,14 @@
 }
 .sliding
 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     display: flex;
     margin-top: 100px;
 }
 .sliding_content
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33%;
     text-align: center;
     height: 400px;
@@ -313,4 +319,135 @@
 .sliding_box_content>h3
 {
   font-size: 1rem;
+}
+.pageyear
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.pageBox
+{
+  text-align: center;
+}
+.pageBox>h1
+{
+  font-size: 50px;
+  color: rgb(44, 75, 255);
+  margin: 0;
+}
+.pageBox>p
+{
+ position: relative;
+ top: 0;
+ font-size: 18px;
+ margin: 0;
+}
+.helpCenter
+{
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  padding-bottom: 80px;
+  /* width: 70%; */
+}
+.helpContainer
+{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+}
+.help-Box-Container-1
+{
+  /* border: 1px solid green; */
+  /* width: 40%; */
+  margin: auto;
+}
+.help-Box-Container-2
+{
+  /* width: 40%; */
+  /* margin: auto; */
+}
+.help-Box-Container-2>h1
+{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.help-Box-Container-2>p
+{
+  font-size: 15.5px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.help-Box-Container-2>button
+{
+  font-size: 22px;
+  padding: 7px 20px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid rgb(44, 75, 255) ;
+  color: rgb(44, 75, 255);
+  margin-top: 20px;
+}
+.marketing
+{
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 80px 0;
+  padding: 20px 0;
+}
+.marketing>p
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+.marketing-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  align-items: center;
+}
+#facebook
+{
+  width: 89px;
+}
+#print
+{
+  width: 150px;
+}
+#linkeden
+{
+  width: 150px;
+}
+.blueBackground
+{
+  background-color:rgb(44, 75, 255) ;
+  height: 500px;
+  display: flex;
+}
+.blueContainer
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.blueContainer>h1
+{
+  font-size: 40px;
+  color: white;
+}
+.blueContainer>button
+{
+  padding: 20px 30px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(233, 114, 132);
 }

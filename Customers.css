@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.somePara
+{
+    width: 70%;
+    margin: auto;
+}
+#ParaHeading
+{
+    text-align: center;
+}
+#ParaHeading>h4
+{
+    color: rgb(44, 75, 255);
+}
+#ParaHeading>h1
+{
+    font-size: 45px;
+}
+#ParaHeading>p
+{
+    font-size: 16px;
+}
+.CustomersPage
+{
+    width: 80%;
+    margin: 80px auto auto auto ;
+    
+}
+.boxContainer
+{
+    width: 90%;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.box
+{
+    background-color: white;
+    padding: 10px;
+    width: 98%;
+    height: 97%;
+    margin: auto;
+}
+
+.box>p
+{
+    font-size: 30px;
+}
+.box>p+p
+{
+    font-size: 20px;
+}
+.box>p+p>a
+{
+    text-decoration: none;
+}
+#box-1
+{
+    background-image:  linear-gradient(to right,rgb(120, 86, 255), rgb(101, 185, 255));
+}
+#box-2
+{
+    background-image:  linear-gradient(to right,rgb(224, 54, 79), rgb(255, 112, 44));
+}
+#box-3
+{
+   background-image:  linear-gradient(to right,rgb(255, 112, 44), rgb(252, 232, 106)); 
+}
+#box-4
+{
+background-image:  linear-gradient(to right,rgb(44, 75, 255), rgb(186, 107, 255));
+}
+#box-5
+{
+background-image:  linear-gradient(to right,rgb(224, 54, 79), rgb(255, 112, 44));
+}
+#box-6
+{
+background-image:  linear-gradient(to right,rgb(0, 200, 207), rgb(153, 233, 236));
+}
+#box-7
+{
+background-image:  linear-gradient(to right,rgb(120, 86, 255), rgb(101, 185, 255));
+}
+#box-8
+{
+background-image:  linear-gradient(to right,rgb(255, 112, 44), rgb(252, 232, 106));
+}
+#box-9
+{
+background-image:  linear-gradient(to right,rgb(0, 200, 207), rgb(153, 233, 236));
+}
+
+#InnerBox-1>img
+{
+    margin-top: 50px;
+ width: 350px;
+ aspect-ratio: auto 300 / 40;
+ height: 60px; 
+}
+#InnerBox-2>img
+{
+    margin-top: 50px;
+ width: 200px;
+ aspect-ratio: auto 300 / 40;
+ height: 30px; 
+}
+#InnerBox-3>img
+{
+    margin-top: 50px;
+ width: 400px;
+ aspect-ratio: auto 300 / 40;
+ height: 60px; 
+}
+#InnerBox-4>img
+{
+    margin-top: 50px;
+ width: 250px;
+ aspect-ratio: auto 300 / 40;
+ height: 40px; 
+}
+#InnerBox-5>img
+{
+    margin-top: 50px;
+ width: 500px;
+ aspect-ratio: auto 300 / 40;
+ height: 80px; 
+}
+#InnerBox-6>img
+{
+    margin-top: 50px;
+ width: 500px;
+ height: 80px; 
+ aspect-ratio: auto 300 / 40;
+}
+#InnerBox-7>img
+{
+    margin-top: 50px;
+ width: 550px;
+ aspect-ratio: auto 300 / 40;
+ height: 90px; 
+}
+#InnerBox-8>img
+{
+    margin-top: 50px;
+ width: 400px;
+ aspect-ratio: auto 300 / 40;
+ height: 60px; 
+}
+#InnerBox-9>img
+{
+    margin-top: 50px;
+ width: 350px;
+ aspect-ratio: auto 300 / 40;
+ height: 50px; 
+}
