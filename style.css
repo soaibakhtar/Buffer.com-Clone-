@@ -75,6 +75,15 @@
   color: rgb(44, 75, 255);
   cursor: pointer;
 }
+#Login_btn>a
+{
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: rgb(44, 75, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
 #Login_btn:hover {
   text-decoration: underline;
   text-underline-position: below;
