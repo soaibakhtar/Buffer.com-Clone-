@@ -30,13 +30,15 @@
   top: 0;
   border-radius: 0 0 20px 20px;
   background-color: white;
+  padding: 20px;
 }
 #logo {
   margin: 10px;
 }
 #logo > img {
-  height: 100px;
-  width: 150px;
+  height: 60px;
+  width: 100px;
+  margin-left: 10px;
 }
 .navbar_section {
   display: flex;
