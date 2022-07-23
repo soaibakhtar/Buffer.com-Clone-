@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.full_container
+{
+    display: flex;
+   position: absolute;
+   top:0;
+   width: 100%;
+   bottom: 0;
+   overflow: hidden;
+}
+.login_section
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+gap: 50px;
+}
+.logo
+{
+    position: relative;
+    top: 0;
+}
+.logo_img
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px ;
+}
+.logo_img>img
+{
+    width: 112px;
+    height: 28px;
+}
+.login_form_outer
+{
+   
+}
+.login_form_inner
+{
+    width: 80%;
+    margin: auto;
+}
+.login_form_inner .label
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.login_form_inner .input_text 
+{
+    display: block;
+    width: 100%;
+    padding:12px 7px 12px 7px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+input:focus { 
+    outline: none !important;
+    border-color: rgb(44, 75, 255);
+    box-shadow: 0 0 10px rgb(81, 103, 230);
+ }
+.login_form_inner #sumbit 
+{
+    width: 100%;
+    padding:12px 7px ;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(44, 75, 255);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login_form_inner #sumbit:hover
+{
+ background-color: rgb(3, 31, 186);
+}
+.login_form_inner .create
+{
+  display: flex;  
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.login_form_inner .create a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+.create+p
+{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.create+p>a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
+.term_condition 
+{
+    position: relative;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .term_box
+{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.term_box>p
+{
+    text-align: center;
+}
+.term_box>p>a
+{
+    color: rgb(96, 91, 91);
+    text-decoration:none;
+    font-weight: 500;
+}
+.background
+{
+    width: 67%;
+    border: 1px solid teal;
+ background-color: #fade2a;
+}
+.container-1
+{
+   
+    margin-top: 80px;
+    position: relative;
+}
+.inner_container
+{
+    width: 60%;
+    position: relative;
+    right: 0;
+    margin-left: 100px;
+}
+.new_buffer_inner>p
+{
+    background-color: white;
+    width: 24%;
+    padding: 1px 5px;
+    text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.paragraph
+{
+    width: 70%;
+    font-size: 17px;
+}
+.introduction_para>h1{
+    width: 70%;
+}
+.container-2
+{
+    width: 100%;
+    display: flex;
+}
+.container-2 .empty
+{
+    width: 30%;
+}
+.img_container
+{
+    width: 70%;
+    position: relative;
+    bottom: 50px;
+}
+.img_container>img
+{
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+bottom: 0;
+overflow: hidden;
+ 
+}
